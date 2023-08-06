@@ -3,7 +3,7 @@
 A matplotlib template  to generate plots similar to CERN's CMS, ATLAS, LHCb and ALICE with LaTeX fonts.
 
 <p>
-  <img src="https://github.com/GiorgosChr/matplotlib_cern/blob/main/Plots/CMS.png" alt="CMS Logo" width="350">
+  <img src="https://github.com/GiorgosChr/matplotlib_cern/blob/main/Plots/CMS.png" alt="CMS Logo" width="600">
 </p>
 
 ## Requirements
