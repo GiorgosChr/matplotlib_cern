@@ -1,0 +1,5 @@
+dist/
+build/
+matplotlib_cern.egg-info/
+matplotlib_cern.py
+rcParams
