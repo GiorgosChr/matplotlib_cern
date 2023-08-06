@@ -36,7 +36,7 @@ ax2.set_xlabel(r"$m_{\gamma\gamma}$ GeV/c$ ^2$")
 ax1.set_ylabel(r"Events")
 ax1.legend()
 ax1.text(75, 0.65, r"$\sqrt{s} = 13.6$ TeV")
-ax1.text(75, 0.61, r"$\int \text{d}t L = 20.5$ fb$^-1$")
+ax1.text(75, 0.61, r"$\int \text{d}t L = 20.5$ fb$^{-1}$")
 ax1.set_title(r"\textbf{CMS/ATLAS} Simulation")
 
 ax2.set_ylabel(r"Data - Fit", loc = "center")

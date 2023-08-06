@@ -29,3 +29,6 @@ Simply import the following packages at the beginning of your script
 import matplotlib.pyplot as plt
 import matplotlib_cern
 ```
+## Future work
+- Specify experiment, luminosity and center of mass energy
+- Specify the type of plot, i.e. regular or regular with residuals
