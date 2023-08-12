@@ -4,7 +4,8 @@ import os
 from scipy.optimize import curve_fit
 
 import matplotlib_cern
-
+matplotlib_cern.set_template()
+# matplotlib_cern.set_plotstyle(plotstyle="regular")
 # Generate Data
 def signal(x):
         A, alpha, mean, sigma = 0.05, 0.008, 125, 50

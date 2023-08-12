@@ -3,3 +3,4 @@ build/
 matplotlib_cern.egg-info/
 matplotlib_cern.py
 rcParams
+matplotlib_cern/__pycache__/
