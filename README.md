@@ -35,12 +35,12 @@ To set the plot style you can pass the following arguments:
 matplotlib.set_plotstyle(text = "CMS", subtext = "Simulation", lum = "12.3", com = "13.6", plotstyle = "regular")
 ```
 The default values are `None` for all except `plotstyle = "regular"`.
-The `"regular"` option produces a square 8x8 plot and `"residuals"` produces a square 8x8 plot with a residual plot attached to the bottom of it.
+The `"regular"` option produces a square 8x8 plot and `"residuals"` produces a square 6x8 plot with a residual plot attached to the bottom of it.
 
 Here are examples of the `"regular"` and `"residuals"` plots:
 <p>
-  <img src="https://github.com/GiorgosChr/matplotlib_cern/blob/main/Plots/plotstyle_regular.png" alt="regular" width="300">
-  <img src="https://github.com/GiorgosChr/matplotlib_cern/blob/main/Plots/plotstyle_residuals.png" alt="residuals" width="300">
+  <img src="https://github.com/GiorgosChr/matplotlib_cern/blob/main/Plots/plotstyle_regular.png" alt="regular" height="300">
+  <img src="https://github.com/GiorgosChr/matplotlib_cern/blob/main/Plots/plotstyle_residuals.png" alt="residuals" height="300">
 </p>
 
 ## Future work
