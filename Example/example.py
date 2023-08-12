@@ -5,7 +5,7 @@ from scipy.optimize import curve_fit
 
 import matplotlib_cern
 matplotlib_cern.set_template()
-# matplotlib_cern.set_plotstyle(plotstyle="regular")
+fig, ax1, ax2 = matplotlib_cern.set_plotstyle(text = "CMS", subtext = "Simultion", lum = "12.3", com = "13.6", plotstyle="residuals")
 # Generate Data
 def signal(x):
         A, alpha, mean, sigma = 0.05, 0.008, 125, 50
@@ -26,8 +26,7 @@ yError = 0.01 * np.random.random(len(x))
 bkg = backgroundSignal(x) + 0.01 * np.random.random(len(x))
 bkgError = 0.01 * np.random.random(len(x))
 
-# Plot Data
-fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True, figsize=(10, 8), gridspec_kw={'height_ratios': [4, 1]})
+
 popt, pcov = curve_fit(fitFunction, x, y, sigma = yError, p0 = (0.05, 0.008, 125, 50))
 ax1.plot(x, fitFunction(x, *popt), color = "red", label = "fit")
 popt2, pcov2 = curve_fit(fitFunctionBackground, x, bkg, sigma = bkgError, p0 = (0.008))
@@ -36,8 +35,8 @@ ax1.errorbar(x, y, xerr = binWidth, yerr = yError, marker = "o", ls = "", color 
 ax2.set_xlabel(r"$m_{\gamma\gamma}$ GeV/c$ ^2$")
 ax1.set_ylabel(r"Events")
 ax1.legend()
-ax1.text(75, 0.65, r"$\sqrt{s} = 13.6$ TeV")
-ax1.text(75, 0.61, r"$\int \text{d}t L = 20.5$ fb$^{-1}$")
+# ax1.text(75, 0.65, r"$\sqrt{s} = 13.6$ TeV")
+# ax1.text(75, 0.61, r"$\int \text{d}t L = 20.5$ fb$^{-1}$")
 ax1.set_title(r"\textbf{CMS/ATLAS} Simulation")
 
 ax2.set_ylabel(r"Data - Fit", loc = "center")
