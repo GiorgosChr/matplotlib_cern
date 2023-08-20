@@ -1,0 +1,8 @@
+@software{matplotlib_cern,
+  author = {Georgios Christou},
+  month = {08},
+  title = {{matplotlib_cern}},
+  url = {https://github.com/GiorgosChr/matplotlib_cern},
+  version = {0.1.2},
+  year = {2023}
+}
