@@ -1,4 +1,5 @@
 # matplotlib_cern
+[![PyPI Downloads](https://img.shields.io/pypi/dm/matplotlib-cern.svg?label=PyPI%20downloads)](https://pypi.org/project/matplotlib-cern/)
 
 A matplotlib template  to generate plots similar to CERN's CMS, ATLAS, LHCb and ALICE with LaTeX fonts.
 
