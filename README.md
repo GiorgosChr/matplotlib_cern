@@ -44,6 +44,20 @@ Here are examples of the `"regular"` and `"residuals"` plots:
   <img src="https://github.com/GiorgosChr/matplotlib_cern/blob/main/Plots/plotstyle_residuals.png" alt="residuals" height="300">
 </p>
 
+## Citation
+If you want to cite this repository you can use the following BibTex citation:
+
+```latex
+@software{matplotlib_cern,
+  author = {Georgios Christou},
+  month = {08},
+  title = {{matplotlib_cern}},
+  url = {https://github.com/GiorgosChr/matplotlib_cern},
+  version = {0.1.2},
+  year = {2023}
+}
+```
+
 ## Future work
 - ~~Specify experiment, luminosity and center of mass energy~~
 - ~~Specify the type of plot, i.e. regular or regular with residuals~~
