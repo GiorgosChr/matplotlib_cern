@@ -23,8 +23,7 @@ $ pip3 install matplotlib_cern
 ```
 
 ## Usage
-You can find a full example [here](https://github.com/GiorgosChr/matplotlib_cern/blob/main/Example/example.py).
-Simply import the following packages at the beginning of your script
+To use `matplotlib_cern` simply import the following packages at the beginning of your script
 
 ```python
 import matplotlib.pyplot as plt
@@ -33,7 +32,8 @@ import matplotlib_cern
 Currently there are only two functions, `set_template` and `set_plotstyle`. The former sets global matplotlib parameters and the latter creates a plot according to user defined variables.
 To set the plot style you can pass the following arguments:
 ```python
-matplotlib.set_plotstyle(text = "CMS", subtext = "Simulation", lum = "12.3", com = "13.6", plotstyle = "regular")
+matplotlib_cern.set_template()
+matplotlib_cern.set_plotstyle(text = "CMS", subtext = "Simulation", lum = "12.3", com = "13.6", plotstyle = "regular")
 ```
 The default values are `None` for all except `plotstyle = "regular"`.
 The `"regular"` option produces a square 8x8 plot and `"residuals"` produces a square 6x8 plot with a residual plot attached to the bottom of it.
